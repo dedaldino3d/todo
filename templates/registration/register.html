@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}Registrar no To Do{% endblock%}
+
+{% block content %}
+<div class="containr-fluid">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            <div class="card auth-card">
+                <div class="card card-body">
+                    <h4 class="card-title text-center">Registrar To Do</h4>
+
+                    <form class="form-signin" method="POST">
+                        {% csrf_token %}
+                        <input type="hidden" class="form-control" name="next" value="{{next}}">
+                        {{ form|crispy }}
+                        <button class="btn btn-primary btn-block">Registrar</button>
+                    </form>
+
+                    <p class="change-form-p">Já possui uma conta? <a href="/accounts/login">Fazer o login.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

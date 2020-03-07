@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title%}{{task.title}}{% endblock %}
+
+{% block content %}
+<div class="container-fluid pad-content">
+    <h1>{{task.title}}</h1>
+
+    <p>{{task.description|linebreaks}}</p>
+</div>
+{% endblock%}

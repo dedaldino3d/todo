@@ -1,0 +1,100 @@
+.container-fluid{
+    padding-left:0;
+    padding-right:-20;
+    margin:0;
+}
+.pad-content{
+    padding-left: 10px;
+    padding-right 10px;
+}
+.pad-fluid{
+    padding-left:0;
+    padding-right:0;
+    margin:0;
+}
+.in-pesquisa{
+    margin-left: 5px;
+}
+.m-topo{
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+/* Icones */
+
+.fa-plus{
+    margin-right: 10px;
+}
+/*
+.fa-search{
+    position: absolute;
+    right:26px;
+    top: 12px;
+    cursor: pointer;
+}
+*/
+.fa-edit, .fa-trash{
+    float: right;
+}
+.fa-edit{
+    margin-right: 3px;
+}
+.fa-trash{
+    margin-left: 3px;
+}
+.fa-edit:hover{
+    color: rgba(0,255,0,.5);
+}
+.fa-trash:hover{
+    color: rgba(255,0,0,.5);
+}
+.fa-home, .fa-users, .fa-phone, .fa-tasks, .fa-lock{
+    margin-right: 5px;
+}
+footer{
+    height: 300px;
+}
+footer:nth-child(3) p{
+    position: relative;
+    top: 280%;
+}
+
+div.btn.col-xs-4{
+    margin-bottom: 5px;
+}
+
+/* messages */
+ul.messages{
+    padding: 0;
+    margin-top: 10px;
+}
+ul.messages li{
+    list-style: none;
+}
+
+/* Paginacao */
+
+.pagination{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.step-links{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.step-links .current{
+    margin-left: 3px;
+}
+
+/* Formulario Login */
+
+.change-form-p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.auth-card{
+    margin-bottom: 30px;
+}

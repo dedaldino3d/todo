@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title%}Adicionar uma Tarefa{% endblock %}
+
+{% block content %}
+<div class="container-fluid pad-content">
+    <div class="row">
+        <div class="col col-12 col-md-6">
+            <form class="form" method="POST">
+                {% csrf_token %}
+                {{ form|crispy}}
+                <input class="btn btn-primary mb-5" type="submit" value="Criar Tarefa">
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock%}
