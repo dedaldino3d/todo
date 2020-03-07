@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 ### Python template
+=======
+>>>>>>> aa3c038a3e4ed10079ff1974e15e08b5a9914758
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -9,6 +12,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+<<<<<<< HEAD
+=======
+build/
+>>>>>>> aa3c038a3e4ed10079ff1974e15e08b5a9914758
 develop-eggs/
 dist/
 downloads/
@@ -20,9 +27,18 @@ parts/
 sdist/
 var/
 wheels/
+<<<<<<< HEAD
 *.egg-info/
 .installed.cfg
 *.egg
+=======
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+>>>>>>> aa3c038a3e4ed10079ff1974e15e08b5a9914758
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -37,20 +53,37 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+<<<<<<< HEAD
+=======
+.nox/
+>>>>>>> aa3c038a3e4ed10079ff1974e15e08b5a9914758
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
 *.cover
+<<<<<<< HEAD
 .hypothesis/
+=======
+*.py,cover
+.hypothesis/
+.pytest_cache/
+>>>>>>> aa3c038a3e4ed10079ff1974e15e08b5a9914758
 
 # Translations
 *.mo
 *.pot
 
 # Django stuff:
+<<<<<<< HEAD
 staticfiles/
+=======
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+>>>>>>> aa3c038a3e4ed10079ff1974e15e08b5a9914758
 
 # Flask stuff:
 instance/
@@ -68,11 +101,34 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+<<<<<<< HEAD
 # pyenv
 .python-version
 
 # celery beat schedule file
 celerybeat-schedule
+=======
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+>>>>>>> aa3c038a3e4ed10079ff1974e15e08b5a9914758
 
 # SageMath parsed files
 *.sage.py
@@ -83,6 +139,11 @@ celerybeat-schedule
 env/
 venv/
 ENV/
+<<<<<<< HEAD
+=======
+env.bak/
+venv.bak/
+>>>>>>> aa3c038a3e4ed10079ff1974e15e08b5a9914758
 
 # Spyder project settings
 .spyderproject
@@ -96,6 +157,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+<<<<<<< HEAD
 
 
 ### Node template
@@ -311,3 +373,10 @@ nomadgram/media/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+=======
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+>>>>>>> aa3c038a3e4ed10079ff1974e15e08b5a9914758
